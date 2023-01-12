@@ -204,8 +204,9 @@ html {
 
   .avatar {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
+    border: 4px solid var(--second-color);
   }
   
   .avatar2 {
@@ -269,8 +270,12 @@ html {
     background-color: var(--bg-color);
   }
 
-  h1,h5{
+  h1,h4,h5{
     color: var(--Black-color);
+  }
+
+  h4{
+    padding-top: 0.5rem;
   }
 
   
